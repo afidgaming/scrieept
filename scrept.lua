@@ -1,5 +1,5 @@
 local lib = loadstring(game:HttpGet('https://raw.githubusercontent.com/TheoTheEpic/AquaLib/main/AquaLib.lua'))()
-local window = lib.createWindow("FAVKED 1.0", "FAVKED 1.0", true) 
+local window = lib.createWindow("FAVKED 3.0", "FAVKED 3.0", true) 
 local tab1 = window.createTab("scropts")
 local section1 = tab1.createSection("scripts", false)
 local section3 = tab1.createSection("game specific", false)
@@ -9,6 +9,8 @@ local section2 = tab2.createSection("admins", false)
 --SCRIPTS
 
 section1.createText("Credits to the original creators")
+
+
 
 section1.createButton("Harked v2", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/afidgaming/scrieept/main/hark.lua'))()
@@ -344,6 +346,10 @@ end)
 
 
 --game specific
+
+section3.createButton("prison life grab knife FE", function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/ZhYis4dM'))()
+end)
 
 section3.createButton("Life in paradise poop script", function()
 	local player = game.Players.LocalPlayer
