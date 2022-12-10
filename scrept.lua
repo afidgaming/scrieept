@@ -10,8 +10,13 @@ local section2 = tab2.createSection("admins", false)
 
 section1.createText("Credits to the original creators")
 
+section1.createButton("Chat bypass", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/daddysyn/synergy/additional/betterbypasser",true))()
+ window.notification("Notice!", "press f to turn this on or off")
+end)
+
 section1.createButton("BEAMER R15", function()
-loadstring(game:HttpGet('https://pastebin.com/raw/tGmivW2n'))()
+    loadstring(game:HttpGet('https://pastebin.com/raw/tGmivW2n'))()
 window.notification("Notice!", "its best to use this with layered clothing")
 end)
 
