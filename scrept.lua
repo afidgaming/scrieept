@@ -10,7 +10,15 @@ local section2 = tab2.createSection("admins", false)
 
 section1.createText("Credits to the original creators")
 
+section1.createButton("BEAMER R15", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/tGmivW2n'))()
+window.notification("Notice!", "its best to use this with layered clothing")
+end)
 
+section1.createButton("walkspeed bypass", function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/evHn3Y1u'))()
+
+end)
 
 section1.createButton("Harked v2", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/afidgaming/scrieept/main/hark.lua'))()
