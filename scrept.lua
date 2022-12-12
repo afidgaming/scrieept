@@ -10,6 +10,7 @@ local section2 = tab2.createSection("admins", false)
 
 section1.createText("Credits to the original creators")
 
+<<<<<<< HEAD
 section1.createButton("FE Boombox GUI", function
 	
         
@@ -32,6 +33,13 @@ section1.createButton("Chat bypass", function()
  window.notification("Notice!", "press f to turn this on or off")
 end)
 
+=======
+section1.createButton("Chat bypass", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/daddysyn/synergy/additional/betterbypasser",true))()
+ window.notification("Notice!", "press f to turn this on or off")
+end)
+
+>>>>>>> c64439c8346a9640ba4c804614c2e99188bda664
 section1.createButton("BEAMER R15", function()
     loadstring(game:HttpGet('https://pastebin.com/raw/tGmivW2n'))()
 window.notification("Notice!", "its best to use this with layered clothing")
