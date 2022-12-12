@@ -1,5 +1,5 @@
 local lib = loadstring(game:HttpGet('https://raw.githubusercontent.com/TheoTheEpic/AquaLib/main/AquaLib.lua'))()
-local window = lib.createWindow("FAVKED 3.0", "FAVKED 3.0", true) 
+local window = lib.createWindow("FAVKED 3.0", "afid's admin panel", true) 
 local tab1 = window.createTab("scropts")
 local section1 = tab1.createSection("scripts", false)
 local section3 = tab1.createSection("game specific", false)
@@ -10,7 +10,37 @@ local section2 = tab2.createSection("admins", false)
 
 section1.createText("Credits to the original creators")
 
+section1.createButton("FE Boombox GUI", function
+	
+        
+end)
 
+section1.createButton("FE btools (R6)", function()
+--made by 1+1=2/rouxhaver
+--only works in games that allow R6
+--does not work well with mobile unless you have a keyboard
+--credit to TheInvisible_ on Vermillion for reanimation
+--Do not make funnys in kid game!!1!!1!
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/rouxhaver/scripts/main/FE%20BTools.lua'))()
+
+window.notification("Notice!", "does not work well in mobile")
+end)
+
+section1.createButton("Chat bypass", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/daddysyn/synergy/additional/betterbypasser",true))()
+ window.notification("Notice!", "press f to turn this on or off")
+end)
+
+section1.createButton("BEAMER R15", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/tGmivW2n'))()
+window.notification("Notice!", "its best to use this with layered clothing")
+end)
+
+section1.createButton("walkspeed bypass", function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/evHn3Y1u'))()
+
+end)
 
 section1.createButton("Harked v2", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/afidgaming/scrieept/main/hark.lua'))()
