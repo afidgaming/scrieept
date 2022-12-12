@@ -16,7 +16,7 @@ its full of skidded code for the 1st version
 
 
 
-## Script
+# Script
 ```lua
 loadstring(game:HttpGet(https://raw.githubusercontent.com/afidgaming/scrieept/main/scrept.lua))();
-
+```
